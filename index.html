@@ -1,52 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 	<head>
-		<meta charset="UTF-8">
-		<title>刮刮卡伪站</title>
-		
-		<script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>	
-		
-		<style type="text/css">
+		<meta charset="utf-8">
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <title>小月博客刮刮卡案例分享</title>
+	    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+	    <style type="text/css">
 			*{
-				padding:0;
-				margin:0;
-				list-style:none;
-			}
-			body{
-				background:#df412b;
-				position: relative;
-			}
+	    		padding: 0;
+	    		margin: 0;
+	    		list-style: none;
+	    	}
+	    	body{
+	    		background: #df412b;
+	    		position: relative;
+	    	}
 			.banner1{
-				display: block;
-				width: 100%;
-				height: auto;
-				overflow: hidden;
-			}
+	    		display: block;
+	    		width: 100%;
+	    		height: auto;
+	    		overflow: hidden;
+	    	}
 			.ggl{
-				position: relative;
-				width: 86%;
-				height: 90px;
-				margin: -3px auto;
-				background:url(img/ggl.png) no-repeat center center ;
-				background-size:100% 100%;
-			}
-			.canvas{
-				position: absolute;
-				top: 2px;
-				left: 2.5%;
-				width: 95%;
-				height: 82px;
-				line-height: 82px;
-				text-align: center;
+	    		position: relative;
+	    		width: 85.6%;
+	    		height: 90px;
+	    		margin: -5px auto;
+	    		background: url(img/ggl.png) no-repeat center center;
+	    		background-size: 100% 100%;
+	    	}
+	    	.canvas{
+				position:absolute;
+				top:2px;
+				left:2.5%;
+				width:95%;
+				height:82px;
+				line-height:82px;
+				text-align:center;
 				z-index: 2;
+				
 			}
 			.info{
-				position: absolute;
-				top: 3px;
-				left: 2.5%;
-				width: 95%;
-				height: 82px;
-				text-align: center;
+				position:absolute;
+				top:2px;
+				left:2.5%;
+				width:95%;
+				height:82px;
+				text-align:center;
 			}
 			.info span{
 				display: block;
@@ -58,17 +58,17 @@
 			.btn{
 				position: relative;
 				width: 50%;
-				height: 35%;
+				height: 35px;
 				line-height: 35px;
 				background: #df412b;
 				color: #fff;
 				border-radius: 5px;
 				margin: 0 auto;
-				z-index: 1; 
+				z-index: 1;
 			}
 			.guize{
 				display: block;
-				width: 86%;
+				width: 85.6%;
 				height: auto;
 				margin: 5% auto 10% auto;
 				border-radius: 5px;
@@ -78,57 +78,50 @@
 				height: 30px;
 				line-height: 30px;
 				text-align: center;
-				font-size: 14px;
+				font-size:14px;
 				margin-top: 5%;
 			}
-			#ok,#no{
-				display: none;
-			}
+			#ok, #no{display: none;}
 			.pop{
 				position: fixed;
-				left: 0;
-				top: 0;
-				z-index: 3;
-				width: 100%;
-				height: 100%;
-				background: rgb(0,0,0,0.6);
-				display: none;
+			 	left: 0;
+			 	top: 0;
+			 	z-index: 3;
+			 	width: 100%;
+			 	height: 100%;
+			 	background: rgba(0,0,0,0.6);
+			 	display: none;
 			}
-
 			.pop img{
 				width: 100%;
 				height: auto;
 				overflow: hidden;
 				margin: 15% auto;
 			}
-		</style>
+	    </style>
 	</head>
 	<body>
 		<img src="img/banner1.png" class="banner1"/>
-		
 		<div class="ggl" id="top">
 			<div class="info" id="prize">
 				<span id="prompt"></span>
-				<span class="btn" id="ok">恭喜你</span>
+				<span class="btn" id="ok">领取奖品</span>
 				<span class="btn" id="no">再来一次</span>
 			</div>
 			<canvas id="c1" class="canvas"></canvas>
 		</div>
-
 		<div class="num">
-			您还有<span class="num1"></span> 
-			次机会
+			您还有<span class="num1"></span>次刮卡机会
 		</div>
-		<img src="img/guize.png" class="guize"/>
-
+		<img src="img/guize.png" class="guize" />
+		
+		<!-- 遮罩层1抽奖次数已经用完-->
 		<div class="pop pop1">
-			<img src="img/pop1.png"/>
+			<img src="img/pop1.png" />
 		</div>
-
 		<div class="pop pop2">
-			<img src="img/pop2.png"/>
+			<img src="img/pop2.png" id="pop2" />
 		</div>
-
 		<script>
 			//控制刮卡次数
 			var t = 1; 
@@ -299,5 +292,7 @@
 			
 
 		</script>
+			
 	</body>
+
 </html>
