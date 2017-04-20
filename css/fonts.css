@@ -4,7 +4,7 @@
  * Open Sans
 ================================================================================ */
 @font-face {
-    font-family: 'opensans-regular';
+    font-family: 'Microsoft YaHei','opensans-regular';
     src: url('fonts/opensans/OpenSans-Regular-webfont.eot');
     src: url('fonts/opensans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/opensans/OpenSans-Regular-webfont.woff') format('woff'),
@@ -14,7 +14,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'opensans-italic';
+    font-family: 'Microsoft YaHei','opensans-italic';
     src: url('fonts/opensans/OpenSans-Italic-webfont.eot');
     src: url('fonts/opensans/OpenSans-Italic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/opensans/OpenSans-Italic-webfont.woff') format('woff'),
@@ -24,7 +24,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'opensans-light';
+    font-family:'Microsoft YaHei', 'opensans-light';
     src: url('fonts/opensans/OpenSans-Light-webfont.eot');
     src: url('fonts/opensans/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/opensans/OpenSans-Light-webfont.woff') format('woff'),
@@ -34,7 +34,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'opensans-light-italic';
+    font-family: 'Microsoft YaHei','opensans-light-italic';
     src: url('fonts/opensans/OpenSans-LightItalic-webfont.eot');
     src: url('fonts/opensans/OpenSans-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/opensans/OpenSans-LightItalic-webfont.woff') format('woff'),
@@ -44,7 +44,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'opensans-semibold';
+    font-family: 'Microsoft YaHei','opensans-semibold';
     src: url('fonts/opensans/OpenSans-Semibold-webfont.eot');
     src: url('fonts/opensans/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/opensans/OpenSans-Semibold-webfont.woff') format('woff'),
@@ -54,7 +54,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'opensans-semibold-italic';
+    font-family: 'Microsoft YaHei','opensans-semibold-italic';
     src: url('fonts/opensans/OpenSans-SemiboldItalic-webfont.eot');
     src: url('fonts/opensans/OpenSans-SemiboldItalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/opensans/OpenSans-SemiboldItalic-webfont.woff') format('woff'),
@@ -64,7 +64,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'opensans-bold';
+    font-family: 'Microsoft YaHei','opensans-bold';
     src: url('fonts/opensans/OpenSans-Bold-webfont.eot');
     src: url('fonts/opensans/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/opensans/OpenSans-Bold-webfont.woff') format('woff'),
@@ -74,7 +74,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'opensans-bold-italic';
+    font-family: 'Microsoft YaHei','opensans-bold-italic';
     src: url('fonts/opensans/OpenSans-BoldItalic-webfont.eot');
     src: url('fonts/opensans/OpenSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/opensans/OpenSans-BoldItalic-webfont.woff') format('woff'),
@@ -84,7 +84,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'opensans-extrabold';
+    font-family: 'Microsoft YaHei','opensans-extrabold';
     src: url('fonts/opensans/OpenSans-ExtraBold-webfont.eot');
     src: url('fonts/opensans/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/opensans/OpenSans-ExtraBold-webfont.woff') format('woff'),
@@ -94,7 +94,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'opensans-extrabold-italic';
+    font-family: 'Microsoft YaHei','opensans-extrabold-italic';
     src: url('fonts/opensans/OpenSans-ExtraBoldItalic-webfont.eot');
     src: url('fonts/opensans/OpenSans-ExtraBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/opensans/OpenSans-ExtraBoldItalic-webfont.woff') format('woff'),
@@ -108,7 +108,7 @@
  * Libre Baskerville
 ================================================================================ */   
 @font-face {
-    font-family: 'librebaskerville-bold';
+    font-family: 'Microsoft YaHei','librebaskerville-bold';
     src: url('fonts/librebaskerville/librebaskerville-bold-webfont.eot');
     src: url('fonts/librebaskerville/librebaskerville-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/librebaskerville/librebaskerville-bold-webfont.woff') format('woff'),
@@ -118,7 +118,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'librebaskerville-italic';
+    font-family: 'Microsoft YaHei','librebaskerville-italic';
     src: url('fonts/librebaskerville/librebaskerville-italic-webfont.eot');
     src: url('fonts/librebaskerville/librebaskerville-italic-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/librebaskerville/librebaskerville-italic-webfont.woff') format('woff'),
@@ -128,7 +128,7 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'librebaskerville-regular';
+    font-family: 'Microsoft YaHei','librebaskerville-regular';
     src: url('fonts/librebaskerville/librebaskerville-regular-webfont.eot');
     src: url('fonts/librebaskerville/librebaskerville-regular-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/librebaskerville/librebaskerville-regular-webfont.woff') format('woff'),
@@ -145,12 +145,12 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 
    @font-face {
-   font-family: 'opensans-semibold';
+   font-family: 'Microsoft YaHei','opensans-semibold';
    src: url('fonts/opensans/OpenSans-Semibold-webfont.svg#open_sanssemibold') format('svg');
    }
 
    @font-face {
-   font-family: 'opensans-bold';
+   font-family: 'Microsoft YaHei','opensans-bold';
    src: url('fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
    }
 
