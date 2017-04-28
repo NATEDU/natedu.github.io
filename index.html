@@ -304,8 +304,40 @@
       </div>
 
    </footer> <!-- Footer End-->
-   <audio autoplay="autoplay"><source src="mp3/mzr.mp3" type="audio/ogg"></source>
+   <!-- bgm start -->
+   <audio id="music" autoplay="autoplay"><source src="mp3/mzr.mp3" type="audio/ogg"></source>
    </audio>
+   <button id="toggle" onclick="toggleSound()"><i class="fa fa-music"></i></button>
+
+   <script type="text/javascript">
+      function toggleSound(){
+         var music = document.getElementById("music");
+         var toogle = document.getElementById("toggle");
+
+         if(music.paused){
+            music.play();
+            toggle.innerHTML='<i class="fa fa-pause">'
+         }
+         else{
+            music.pause();
+            toggle.innerHTML='<i class="fa fa-play">'
+         }
+      }
+   </script>
+   <style type="text/css">
+   #toggle{
+      display: block;
+      border: 1px solid #fff;
+      background-color: rgba(0,0,0,0);
+      position:absolute;
+      right:8%;
+      top: 30%;
+      z-index:10000;
+      width: 56px;
+      height: 56px;
+   }
+   </style>
+   <!-- bgm eng -->
    <!-- Java Script
    ================================================== -->
    <script src="js/jquery.min.js"></script>
