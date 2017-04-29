@@ -358,10 +358,12 @@ ul#nav li.current a { color: #F06000; }
 
 @-moz-keyframes photoshop {
   0%   { width: 0px;  }
+  50%   { width: 90%;  }
   100% { width: 60%;  }
 }
 @-moz-keyframes illustrator {
   0%   { width: 0px;  }
+  50%   { width: 20%;  }
   100% { width: 55%;  }
 }
 @-moz-keyframes wordpress {
@@ -383,10 +385,12 @@ ul#nav li.current a { color: #F06000; }
 
 @-webkit-keyframes photoshop {
   0%   { width: 0px;  }
+  50%   { width: 90%;  }
   100% { width: 60%;  }
 }
 @-webkit-keyframes illustrator {
   0%   { width: 0px;  }
+  50%   { width: 90%;  }
   100% { width: 55%;  }
 }
 @-webkit-keyframes wordpress {
